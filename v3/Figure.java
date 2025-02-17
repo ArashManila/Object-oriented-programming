@@ -4,7 +4,7 @@ import ru.ivt5.v3.iface.HasArea;
 import ru.ivt5.v3.iface.Movable;
 
 
-abstract class Figure implements HasArea, Movable {
+public abstract class Figure implements HasArea, Movable {
     private Point point;
 
     public Figure(Point abspoint){ point=abspoint; }
